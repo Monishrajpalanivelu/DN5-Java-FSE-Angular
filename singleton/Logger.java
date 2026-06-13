@@ -16,4 +16,8 @@ public class Logger  {
             
             return log;
       }
+          public void log(String message) {
+        System.out.println("LOG: " + message);
+    }
+
 }
